@@ -1,0 +1,27 @@
+body {
+    background-color:antiquewhite;
+    }
+hr
+    {
+    /* background-color: blue; */
+    border-style: dotted none none none; border-width: 10px; width: 150px;
+    }
+h1{
+    color: #00ADB5;
+    }
+h2{
+    color:#222831;
+    }
+h3{
+    color: #00ADB5;
+    }
+h4{
+    color: #00ADB5;
+    }
+.second{
+        background-color:white;
+    }
+.circular{
+        border-radius:50%;
+        width: 150px;
+    }    

@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+}
+div{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    border: 10px solid black;
+    padding: 50px;
+}
+.middle-box{
+    margin-left: 320px;
+    border: 10px solid pink
+}
+.bottom-box{
+    margin-left: 640px;
+    border: 10px solid blue
+}

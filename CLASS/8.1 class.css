@@ -1,0 +1,32 @@
+body{
+    width:1000px;
+    background-color: black;
+    
+}
+.container{
+    display: grid;
+    
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "header header header"
+                        "main main sidebar"
+                        "footer footer footer";
+                        
+}
+.header{
+    background-color: aqua;
+    grid-area: header;
+    
+}
+.main{
+    background-color: blue;
+    grid-area: main;
+}
+.sidebar{
+    background-color: brown;
+    grid-area: sidebar;
+}
+.footer{
+    background-color: blueviolet;
+    grid-area: footer;
+}
+

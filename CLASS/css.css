@@ -1,0 +1,13 @@
+p{
+    background-color: antiquewhite;
+    width: 200px;
+    display:inline-block;
+}
+span{
+    width:200px;
+    display:block;
+    background-color:blue;
+}
+.hidden{
+    display:visibility;
+}

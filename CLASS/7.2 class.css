@@ -1,0 +1,123 @@
+body{
+    margin:0;
+    text-align: center;
+}
+h2{
+    font-size: 2.5rem;
+    color: darkgreen;
+}
+p{
+    font-size: 1.5rem;
+    color:yellowgreen;
+    font-weight:900;
+}
+h1{
+    color:darkblue;
+}
+h3{
+    font-size:1rem;
+    color:red;
+}
+.banner-container{
+    background-color:#E0EBE8;
+    padding-top: 100px;
+}
+.heading-main{
+    position:relative;
+    width: 500px;
+    margin:0 auto;
+}
+.name{
+    font-weight: 900;
+    font-size:5rem;
+}
+.first-cloud{
+    position:absolute;
+    right: 0;
+    top:-50px;
+}
+.second-cloud{
+    position:absolute;
+    left: 0;
+}
+.service-img{
+    width:300px;
+}
+hr{
+    width:10%;
+    border-top: 3px dotted blue;
+}
+.personal{
+    width:300px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+.container{
+    padding:100px 0px;
+    width:30%;
+    margin:0 auto;
+}
+.services{
+    width:40%;
+    margin:0 auto;
+    text-align: left;
+}
+.service-image{
+    float:left;
+}
+.services2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.services1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.service-image-second{
+    float: right;
+}
+.clear{
+    clear:both;
+}
+.text{
+    text-align: center;
+}
+.contact{
+    width:30%;
+    margin:0 auto;
+}
+.msg-btn{
+    background-color: aqua;
+    width:10%;
+    text-decoration: none;
+    padding:0.3rem 1rem;
+}
+.msg-btn:hover{
+    background-color: blueviolet;
+}
+footer{
+    background-color:#E0EBE8 ;
+    margin-top: 100px;
+}
+.footer{
+margin:0 auto;
+width:40%;
+}
+.footer-list{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+.foot{
+color: blueviolet;
+text-decoration: none;
+}
+.copy{
+clear:both;
+margin-top: 30px;
+font-size: .75rem;
+}

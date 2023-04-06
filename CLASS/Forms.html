@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORMS</title>
+</head>
+<body>
+    <h1>Please fill in the form to contact me</h1>
+    <form>
+        <fieldset>
+            <legend>Basic Information</legend>
+            <label for="full-name">full name</label>
+            <input type="text" name="full-name" autofocus placeholder="Enter your full name" required><br>
+            <label for="email">email</label>
+            <input type="email" email="email" placeholder="Enter your email"><br>
+            <label for="age">age</label>
+            <input type="number" name="age" min="18" max="30"><br>
+            <label for="password">password</label>
+            <input type="password" name="password"><br>
+            <label for="phone">phone no</label>
+            <input type="numbers" name="number"><br>
+            <label for="reason">Reason for contact</label>
+            <select>
+                <optgroup label="Business">
+                    <option value="freelancer">free lancer</option>
+                    <option value="friend">friends</option>
+                    <option value="family">family</option>
+                </optgroup>
+                <optgroup label="Personel">
+                    <option value="gil friend">girl friend</option>
+                </optgroup>
+            </select><br>
+            <label for="browsers">Choose your browser from the list</label>
+            <input list="browsers" name="browsers" placeholder="browsers">
+            <datalist id ="browsers">
+                <option value="firefox">
+                <option value="chrome">
+                <option value="brave">
+            </datalist>
+        </fieldset>
+        <fieldset>
+            <legend>Other Information</legend>
+            <h4>what is your favourite technology</h4>
+            <input type="radio" name="fav-technology" value="HTML"/>
+            <label for="HTML">HTML</label><br>
+            <input type="radio" name="fav-technology" value="CSS"/>
+            <label for="CSS">CSS</label><br>
+            <input type="radio" name="fav-technology" value="js"/>
+            <label for="JS">JS</label><br>
+            <h4>what technologies are you intrested to learn?</h4>
+            
+            <input type="checkbox" name="technology 1" value="node ja">
+            <label for="technology 1">node js</label><br>
+            <input type="checkbox" name="technology3" value="react js">
+            <label for="technology 2">react js</label><br>
+            <input type="checkbox" name="technolgy 3" value="mongoose">
+            <label for="technology 3">mongoose</label><br>
+            <label for="message">your message</label><br>
+            <textarea name="message" cols="50" rows="10"></textarea>
+            </fieldset>
+    </form>
+    <input type="submit">
+    <input type="reset"><br>
+    <a href="index.html" alt="index page">go to main page</a>
+</body>
+</html>
