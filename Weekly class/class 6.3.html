@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="class 6.css"/>
+    <title>Posts</title>
+</head>
+<body>
+    <div class="nav-bar">
+        <a href="class 6.html"> <img src="/CLASS/26 class/img/card-lazy.jpg" alt="logo"/></a>
+        <ul class="menu">
+           <li> <a href="class 6.html"> HOME </a></li>
+           <li> <a href="class 6.2.html">FETCH POSTS</a> </li>
+           <li> <a href="class 6.3.html"> PRODUCTS</a> </li>
+           <li> <a href="class 6.1.html"> CONTACT US </a></li>
+        </ul>
+   </div>
+    <!-- main portian-->
+    <div>
+       <h2> Add Product</h2>
+       <form method="post">
+          Name : <input type="text" id="name"/> <br/>
+          Price : <input type="text" id="price"/> <br/>
+          Quantity : <input type="text" id="quantity"/><br/>
+          <input type="submit" value="Add" id="btn"/>
+       </form>
+       
+    </div>
+    <div class="footer">
+        <p> Odin SChool , India | Copyright &copy; 2023</p>
+    </div>
+    <!-- footer -->
+    <script>
+        document.getElementById("btn").addEventListener("click",function(event){
+           event.preventDefault();
+           let name=document.getElementById("name").value;
+           let price=document.getElementById("price").value;
+           let quantity=document.getElementById("quantity").value;
+           let proData={
+               name:name,
+               price:price,
+               quantity:quantity
+           }
+           fetch("http://localhost:3001/products",{
+              method:"POST",
+              body:JSON.stringify(proData),
+              headers:{
+                "Content-Type":"application/json; charset=UTF-8"
+              }
+           })
+           .then(res=> res.json())
+           .then(data=>{
+              if(data){
+                alert("Product Added");
+                window.location.href='class 6.3.html'
+              }
+           })
+        })
+    </script>
+</body>
+</html>

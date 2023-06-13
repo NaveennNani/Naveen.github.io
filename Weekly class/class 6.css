@@ -1,0 +1,218 @@
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #a6a2a221;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    margin: auto;
+    background: #e6e6e6;
+}
+.nav-bar img{
+     margin-left: 10px;
+     width: 95px;
+     height: 85px;
+     border: 0;
+     border-radius: 25px;
+}
+.nav-bar a{
+    text-decoration: none;
+    margin:2px 15px;
+    font-size: 21px;
+    font-weight: normal;
+    color: #013287;
+}
+.nav-bar a:hover{
+    color:#31d8ba;
+    text-shadow: 0 0 1px blue;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    overflow: hidden;
+}
+
+.main{
+    padding: 15px;
+}
+.image-slider{
+    width: 100%;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 5px grey;
+    overflow: hidden;
+}
+.image-slider img{
+    width: 100%;
+    height: 100%;
+}
+.tag-line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px auto;
+    position: relative;
+    width: 95%;
+    height: 150px;
+    background: #e6e6e6;
+    font-size: 30px;
+    text-align: center;
+    box-shadow: 0 0 5px grey;
+}
+.recent-projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+    font-size: 24px;
+}
+hr{
+    width: 80%;
+}
+.project-item-wrapper{
+    display: flex;
+    margin-top: 15px;
+    justify-content: center;
+}
+.project-item{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    width: 35%;
+    box-shadow: 0 0 5px grey;
+}
+.project-item img{
+    width: 300px;
+    height: 200px;
+}
+.project-item p{
+    font-size: 18px;
+}
+.team{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin: 15px 0;
+     font-size: 24px;
+}
+.team h2{
+    margin-bottom: 5px;
+}
+.team-members{
+   display: grid;
+   grid-template-columns: auto auto auto auto;
+   margin-top: 15px;
+   width: 90%;
+   padding: 10px 15px;
+   justify-content: center;
+   box-shadow: 0 0 5px grey;
+}
+.member{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    align-items: center;
+    text-align: center;
+}
+.member img{
+    width: 180px;
+    height: 180px;
+    border-radius: 180px;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: #e6e6e6;
+    width: 100%;
+    font-size:15px
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding:20px
+  }
+  .btn{
+     margin:2px;
+     width: 100px;
+     height: 30px;
+     background-color: greenyellow;
+     border-radius: 20px;
+     font-weight: bolder;
+  }
+  h2{
+    color:#403333;
+    text-align: center;
+}
+.container{
+   display: flex;
+   align-items: center;
+   margin: auto;
+   padding: 15px;
+   font-family: Arial, Helvetica, sans-serif;
+   width: 80%;
+}
+.contact-info{
+     display: flex;
+     width:60%
+}
+ form{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    box-shadow: 0 0 15px grey;
+    text-align: center;
+    color: grey;
+    border-radius: 5px;
+    padding:7px;
+ }
+ .details{
+   font-family: 'ubuntu',sans-serif;
+   display: flex;
+   flex-direction: column;
+   width: 40%;
+   background: #013287;
+   color: white;
+   border-radius: 5px;
+   padding: 7px;
+   box-shadow: 0 0 15px #013287;
+   height: 380px;
+ }
+ input{
+    margin: 5px 15px;
+    height:25px
+ }
+ textarea{
+    margin: 5px 15px;
+    height:150px
+ }
+ button{
+     margin: 5px 15px;
+     width: 80px;
+     background: #013287;
+     padding:3px 10px;
+     border: 0;
+     border-radius: 5px;
+     color: white;
+     font-size: 15px;
+ }
+ #start{
+    cursor: pointer;
+ }
+ #stop{
+    cursor: pointer;
+ }
+ #start:hover, #stop:hover{
+    background-color: #31d8ba;
+ }
