@@ -1,0 +1,17 @@
+
+{
+    "icecreamData" : [
+        {
+            "id":"1",
+            "imageUrl":"https://www.yummytummyaarthi.com/wp-content/uploads/2014/11/1-36.jpg",
+            "name":"Choclate ice cream",
+            "description":"Chocolate ice cream is generally made by blending cocoa powder, and the eggs, cream, vanilla, and sugar used to make vanilla ice cream"
+        },
+        {
+            "id":"2",
+            "imageUrl":"https://static.toiimg.com/thumb/63971154.cms?width=573&height=430",
+            "name":"Vanilla ice cream",
+            "description":"Vanilla ice cream is a sweet frozen dessert made from milk, cream, sugar, and vanilla flavoring from vanilla seeds, pure vanilla extract, vanilla seed paste, or a combination."
+        }
+    ]
+}

@@ -1,8 +1,14 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client'; 
-import './index.css';
-import App from './index.js';
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-    <App />
-);
+import React from 'react'
+import Navbar from './Navbar'
+import MovieDetails from './moviedetails'
+
+function App() {
+  return (
+    <div>
+    <Navbar/>
+    <MovieDetails/>
+    </div>
+  )
+}
+
+export default App
